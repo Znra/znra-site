@@ -35,6 +35,50 @@ html {
     margin-top:10px;
 }
 
+.table-result{
+    width:80%;
+}
+
+.table-result thead, tbody, tr, td, th{
+    display:block;
+}
+
+.table-result tr:after{
+    content: ' ';
+    display:block;
+    visibility:hidden;
+    clear:both;
+}
+
+.table-result thead th{
+    height:auto;
+}
+
+.table-result tbody{
+    height:240px;
+    overflow-y:scroll;
+}
+
+.table-result thead th{
+    width:16.35%;
+    float:left;
+}
+
+.table-result tbody td{
+    width:16.65%;
+    float:left;
+}
+
+.table-reslist{
+
+    min-height:120px;
+    overflow: scroll;
+}
+
+.searchbar{
+    width:80%;
+}
+
 .bigpic_sq{
     width:320px;
     height:320px;
