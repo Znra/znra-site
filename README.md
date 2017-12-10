@@ -1,2 +1,0 @@
-# znra-site
-test site
