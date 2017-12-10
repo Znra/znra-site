@@ -69,11 +69,40 @@ html {
     float:left;
 }
 
-.table-reslist{
-
-    min-height:120px;
-    overflow: scroll;
+.table-profile{
+    width:40%;
 }
+
+.table-profile thead, tbody, tr, td, th{
+    display:block;
+}
+
+.table-profile tr:after{
+    content: ' ';
+    display:block;
+    visibility:hidden;
+    clear:both;
+}
+
+.table-profile thead th{
+    height:auto;
+}
+
+.table-profile tbody{
+    height:200px;
+    overflow-y:scroll;
+}
+
+.table-profile thead th{
+    width:48%;
+    float:left;
+}
+
+.table-profile tbody td{
+    width:50%;
+    float:left;
+}
+
 
 .searchbar{
     width:80%;
@@ -94,10 +123,25 @@ html {
     width: 100%
 }
 
-.smallpic_sq{
+.profpic{
+    background-color: #d5e4c5;
+    padding:10px;
+    border-radius:5px;
 }
 
-.smallpic_img{
+.profpic_sq{
+    display:inline-block;
+    width:140px;
+    height:140px;
+    overflow: hidden;
+    border-radius: 5px;
+    border-color: #cce5af;
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.profpic_img{
     width: 100%;
 }
 
